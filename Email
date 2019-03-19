@@ -1,6 +1,6 @@
 /* Creating a macro that will send the results from a table out */
 
-DATA HOUR;                              /* We can use this to set an automatic email if we have access to a scheduler */
+DATA HOUR;                              /* We can use this to set an automatic email */
 HOUR=HOUR(DATETIME());
 RUN;
 
